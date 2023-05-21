@@ -1,5 +1,5 @@
 # Arch-Linux-Installation-Script
-Arch Linux Installtation Script with LVM on Luks with TPM2 and TPM Pin 
+Arch Linux Installtation Script with LVM on Luks with TPM2 and TPM PIN 
 
 
 # Steps to Install Arch
