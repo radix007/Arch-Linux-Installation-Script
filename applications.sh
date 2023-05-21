@@ -13,7 +13,7 @@ echo -e "\n\n\n"
 sudo reflector --verbose --protocol https --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 
 
-sudo pacman -S git firewalld base-devel bash-completion nvidia nvidia-utils nvidia-settings nvidia-prime git mesa acpi acpi_call vlc firefox konsole tmux thunderbird qbittorrent firewalld tmux rsync signal-desktop wireguard-tools libreoffice-fresh calibre clamav restic ksysguard p7zip dolphin tor spectacle okular hexedit gdb gthumb kalendar eog torbrowser-launcher discord neofetch ghidra pulseaudio-bluetooth pulseaudio-jack pulseaudio pulseaudio-alsa pulseaudio-equalizer
+sudo pacman -S git firewalld base-devel bash-completion nvidia nvidia-utils nvidia-settings nvidia-prime git mesa acpi acpi_call vlc firefox konsole tmux thunderbird qbittorrent firewalld tmux rsync signal-desktop wireguard-tools libreoffice-fresh calibre clamav restic ksysguard p7zip dolphin tor spectacle okular hexedit gdb gthumb kalendar eog torbrowser-launcher discord neofetch ghidra pulseaudio-bluetooth pulseaudio-jack pulseaudio pulseaudio-alsa pulseaudio-equalizer resolvconf latte-dock
 sudo cp blacklistnouveau.conf /etc/modprobe.d/
 sudo mkinitcpio -P
 
